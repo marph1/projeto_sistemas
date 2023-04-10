@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #242149;
+    --cor2: #3c3772;
+    --cor-texto:#F4FFF8;
+    --cor-texto2: #F5F3F5;
+    --branco: #ffff;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+}
+
+#container{
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+    background-color: var(--cor1);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container p{
+    text-align: justify;
+}
+
+#container #bem-vindo{
+    color: var(--cor-texto);
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#container #acesso{
+    font-size: 25px;
+    color: var(--cor-texto2);
+    text-align: left;
+}
+
+#container #entrar p, a{
+    color: var(--cor-texto);
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+
+#container #entrar{
+    margin-top: 70px;
+    padding: 25px 50px;
+    color: var(--cor-texto);
+    background-color: var(--cor2);
+    border-radius: 10%;
+    border: 1px solid var(--branco);
+}
+
+#container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--branco);
+    width: 70vw;
+    height: 100vh;
+}
+
+#container2 #crie-conta{
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--cor1);
+}
+
+#container2 #dados{
+    font-size: 25px;
+    color: var(--cor2);
+    margin-bottom: 30px;
+}
+
+#input-field{
+    display: grid;
+    margin-top: 30px;
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}

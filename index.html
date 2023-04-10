@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="php/conexao.php" method="post">
+        <main>
+
+            <div id="container">
+                <p id="bem-vindo">Seja bem vindo de volta</p>
+                <p id="acesso">cadastre o torneio </p>
+                <a href="/cadastro.html" id="entrar">Entrar</a>
+            </div>
+        
+            <div id="container2">
+                <p id="crie-conta">Torneios CS Blazer</p>
+                <p id="dados">Insira os dados para prosseguir com o cadastro</p>
+                
+                <div id="input-field">
+                    <input type="text" name="nome_torneio" placeholder="Digite o nome do torneio">
+                    <input type="number" name="participantes" placeholder="Digite a quantidade de participantes">
+                    <input type="date" name="data_inicio">
+                    <input type="date" name="data_final" placeholder="acaba em">
+                    <input type="submit" onclick="alert('Torneio cadastrado com sucesso!');">
+                </div>
+            </div>
+
+        </main>
+    </form>
+</body>
+</html>
